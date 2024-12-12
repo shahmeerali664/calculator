@@ -1,0 +1,61 @@
+/* App.css */
+.calculator {
+    width: 220px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 24px;
+    text-align: right;
+    margin-bottom: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  
+  input[type="button"] {
+    width: 45px;
+    height: 45px;
+    margin: 5px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  input[type="button"]:hover {
+    background-color: #ddd;
+  }
+  
+  input[type="button"]:active {
+    background-color: #ccc;
+  }
+  
+  input[type="button"].clear {
+    background-color: #f76c6c;
+    color: white;
+  }
+  
+  input[type="button"].equal {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  input[type="button"].operator {
+    background-color: #ffa500;
+    color: white;
+  }
+  
+  input[type="button"].operator:hover {
+    background-color: #e69500;
+  }
+  
